@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+body {
+  background: #E2E8F0;
+  color: #111827;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  place-items: center;
+  padding: 1rem;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+form {
+  width: 100%;
+  max-width: 26rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+h1, p {
+  margin: 0;
+}
+
+p {
+  font-size: 0.875rem;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+input {
+  appearance: none;
+  border: 1px solid #D1D5DB;
+  background: #fff;
+  color: #111827;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  width: 100%;
+  outline: 2px solid transparent;
+}
+
+input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 2px #6366f1;
+}
+
+input[type="submit"] {
+  border: 1px solid transparent;
+  background: #111827;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  cursor: pointer;
+  margin: 0;
+}
+
+#loading {
+  display: none;
+  margin: 0 auto;
+  width: 2rem;
+  height: 2rem;
+  animation: spin 1s linear infinite;
+  color: #D1D5DB;
+  fill: #6366f1;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+.github-corner {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  border: 0;
+}
