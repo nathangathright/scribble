@@ -2,6 +2,8 @@
 
 > Transcribe with your own [Deepgram account](https://console.deepgram.com/) with **speaker diarization and word-by-word fidelity**. Then, convert it to the [Podcast Namespace JSON spec](https://github.com/Podcastindex-org/podcast-namespace/blob/main/transcripts/transcripts.md#json).
 
+[https://scribble.fly.dev/](https://scribble.fly.dev/)
+
 ## Quick Start
 
 1. Create a free Deepgram account and generate an API key. You’ll get $200 in credit, absolutely free. No credit card needed.
