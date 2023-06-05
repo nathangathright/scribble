@@ -2,7 +2,7 @@
 
 > Transcribe with your own [Deepgram account](https://console.deepgram.com/) with **speaker diarization and word-by-word fidelity**. Then, convert it to the [Podcast Namespace JSON spec](https://github.com/Podcastindex-org/podcast-namespace/blob/main/transcripts/transcripts.md#json).
 
-[https://scribble.fly.dev/](https://scribble.fly.dev/)
+[scribble.fly.dev](https://scribble.fly.dev/)
 
 ## Quick Start
 
