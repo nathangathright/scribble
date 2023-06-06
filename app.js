@@ -39,7 +39,7 @@ app.post('/', async (req, res) => {
     diarize: true,
     punctuate: true,
     model: "nova",
-    language: "en-US",
+    detect_language: true,
   }
 
   try {
