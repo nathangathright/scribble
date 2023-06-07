@@ -1,12 +1,12 @@
 # Scribble
 
-> Transcribe with your own [Deepgram account](https://console.deepgram.com/) with **speaker diarization and word-by-word fidelity**. Then, convert it to the [Podcast Namespace JSON spec](https://github.com/Podcastindex-org/podcast-namespace/blob/main/transcripts/transcripts.md#json).
+> Transcribe your audio with **speaker diarization & word-by-word fidelity** with your own Deepgram account and export it for the `<podcast:transcript>` tag as [Podcast Namespace JSON](https://github.com/Podcastindex-org/podcast-namespace/blob/main/transcripts/transcripts.md#json).
 
 [scribble.fly.dev](https://scribble.fly.dev/)
 
 ## Quick Start
 
-1. Create a free Deepgram account and generate an API key. You’ll get $200 in credit, absolutely free. No credit card needed.
+1. Create a [free Deepgram account](https://console.deepgram.com/) and generate an API key. You’ll get $200 in credit, absolutely free. No credit card needed.
 1. Paste your API key and upload your audio to the app.
 1. Receive a high-fidelity transcript correctly formatted for the `<podcast:transcript>` tag.
 1. Optionally, replace the "Speaker 1", "Speaker 2" labels with actual names.

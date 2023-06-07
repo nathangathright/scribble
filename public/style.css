@@ -41,6 +41,16 @@ h1, p {
 
 p {
   font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+code {
+  background: #E2E8F0;
+  mix-blend-mode: multiply;
+  padding: 0 4px;
+  FONT-VARIANT: JIS04;
+  border-radius: 3px;
+  box-shadow: 0 -2px 0 0px #E2E8F0, 0 2px 0 0px #E2E8F0;
 }
 
 label {
